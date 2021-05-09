@@ -22,7 +22,7 @@ class Square(Rectangle):
     
     @property
     def side(self):
-        return self._side
+        return self._base
     
     @side.setter
     def side(self, side):
